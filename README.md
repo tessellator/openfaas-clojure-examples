@@ -17,7 +17,7 @@ faas-cli up -f ./astronaut-finder.yml
 Building a function can take a few minutes because all dependencies are downloaded and an uberjar created as part of the process.
 
 
-Note: You may have to edit the YAML files to support your deployment scenario. They are configured to run with faas-netes running locally and with a Docker registry running at localhost:50000. Check the [OpenFaaS YAML reference](https://docs.openfaas.com/reference/yaml/) if you need help updating the configurations.
+Note: You may have to edit the YAML files to support your deployment scenario. They are currently configured to run with the setup in the excellent [getting started post](https://blog.alexellis.io/first-faas-python-function/) by Alex Ellis (the OpenFaaS founder). Check the [OpenFaaS YAML reference](https://docs.openfaas.com/reference/yaml/) if you need help updating the configurations.
 
 ## License
 
