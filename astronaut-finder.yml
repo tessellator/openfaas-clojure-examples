@@ -1,0 +1,8 @@
+provider:
+  name: faas
+  gateway: http://localhost:31112
+functions:
+  astronaut-finder:
+    lang: clojure
+    handler: ./astronaut-finder
+    image: localhost:50000/astronaut-finder:latest

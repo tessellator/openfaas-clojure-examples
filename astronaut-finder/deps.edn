@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        ring/ring-core {:mvn/version "1.7.1"}
+        cheshire {:mvn/version "5.8.1"}
+        clj-http {:mvn/version "3.9.1"}}}
